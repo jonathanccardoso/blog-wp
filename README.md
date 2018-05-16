@@ -1,2 +1,2 @@
-# blog-wp
+# Blog - WP
 Powered by WordPress
