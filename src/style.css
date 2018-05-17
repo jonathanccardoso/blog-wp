@@ -7,4 +7,49 @@ Author URL: https://jonathanccardoso.github.io/
 Version: 1.0
 */
 
-
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.header{
+	height: 600px; /*tamanho do header (podendo ser também da imagem)*/
+	background: url(assets/images/image.jpg) center top;
+	padding: 10px 0;
+}
+.header h1{
+	margin: 0;
+}
+.header h1 a{
+	color: #fff;
+	text-decoration:none; 
+}
+.header .infor{
+	margin: 0 auto;
+	width: 880px; 
+	text-align: center;
+}
+.header .infor h2{
+	color: #fff;
+	font-size: 30px;
+}
+.header .infor p{
+	color: #fff;
+	font-weight: lighter; 
+	font-size: 20px;
+}
+.custom-butao{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #27736; 
+	border-radius: 30px; 
+	margin: 0 auto;
+	width: 339px;	
+}
+/*alinhamento centrado*/
+.wrap{
+	margin: 0 auto;
+	width: 960px;
+}

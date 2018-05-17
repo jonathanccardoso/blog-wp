@@ -1,2 +1,2 @@
 # Blog - WP
-Powered by WordPress
+Theme WordPress. No other frameworks.

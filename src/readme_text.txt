@@ -1,4 +1,4 @@
-connfigurar na pasta raiz do projeto o arquivo "wp-config-sample.php";
+configurar na pasta raiz do projeto o arquivo "wp-config-sample.php";
 
 com dados do banco e do tema;
 
