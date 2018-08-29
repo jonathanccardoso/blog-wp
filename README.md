@@ -10,7 +10,11 @@ Configurar snippets.php
 Criar e editar arquivos para edição do theme
 Instalar o theme no WP
 No functions roda ass funções e scripts do theme
-Começar a edição do theme
+Começar a edição do front-end do theme
+
+[menu e slider dinamicos]
+No carousel foi usado um "plugin" chamado 'wp_bootstrap_navwalker.php' e colocado no /assets/includes. Configurando no header e no functions (toda config de plugins e afins) [https://github.com/wp-bootstrap/wp-bootstrap-navwalker]
+- menu e slider automatizado pelo painel WP
 
 ## References ##
 Watch series
