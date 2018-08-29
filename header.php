@@ -9,17 +9,25 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-
 	<div class="header">
-		<div class="wrap">
-			<!--titulo sempre h1-->
-			<h1><a href="<?php echo site_url(); ?>" title="<?php blog_info('name'); ?>">BLOGWP</a></h1>
-			<div class="infor">
-				<h2>skfafnfnsjnfdknfdofjdfn</h2>
-				<p>skfafnfnsjnfdknfdofjdfnskfafnfnsjnfdknfdofjdfnskfafnfnsjnfdknfdofjdfn
-				skfafnfnsjnfdknfdofjdfnskfafnfnsjnfdknfdofjdfn</p>
-				<a href="#" class="custom-botao">Leia Mais</a>
-			</div>
-		</div>
-	</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom"><!--navbar-custom => customizando navbar-->
+		  <a class="navbar-brand" href="#">BLOG<span>WP</span></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
+		  <div class="collapse navbar-collapse navbar-collapse-custom" id="navbarSupportedContent">
+		    <ul class="navbar-nav navbar-right mr-auto">
+		      <li><a href="#">HOME</a></li>
+		      <li><a href="#">HOME</a></li>
+		      <li><a href="#">HOME</a></li>
+		      <li><a href="#">HOME</a></li>
+		      <li><a href="#">HOME</a></li>
+		      <li><a href="#">CONTATO</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+	<div class="slider">
+		<img class="img-responsive" src="<?php blog_info('template_directory'); ?>/assets/images/slider-01">		 
+	</div>
