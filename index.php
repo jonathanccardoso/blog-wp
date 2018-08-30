@@ -27,7 +27,7 @@
 			      <?php the_post_thumbmail('full'); ?>
 			      <div class="carousel-caption d-none d-md-block">
 				    <h2><?php the_title(); ?></h2>
-				    <a class="leia-mais" href="#">LEIA MAIS</a>
+				    <a class="leia-mais" href="<?php the_field('link_do_slider'); ?>">LEIA MAIS</a>
 				  </div>
 			    </div>
 
@@ -67,7 +67,25 @@
 <div class="servicos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4-col-lg-4">
+			<!--sempre automatizar os editores!-->
+			<?php 
+		    	$args = array('post_type'=>'servicos','showposts'=>3)
+		    	$my_servicos = get_posts( $args );
+		    	if($my_servicos) : foreach($my_servicos as $post) : setup_postdata( $post );
+		     ?>
+
+				<div class="col-md-4-col-lg-4">
+					<i class="<?php the_field('icones'); ?>"></i>
+					<h2><?php the_title(); ?></h2>
+					<?php the_excerpt(); ?><!--the_excerpt(); -> resumo do texto-->
+				</div>
+
+			<?php 
+		    	endforeach;
+		    	endif;
+		     ?>
+
+			<!--<div class="col-md-4-col-lg-4">
 				<i class=""></i>
 				<h2>sjahkagfkdfdjfh</h2>
 				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
@@ -76,25 +94,63 @@
 				<i class=""></i>
 				<h2>sjahkagfkdfdjfh</h2>
 				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
-			</div>
-			<div class="col-md-4-col-lg-4">
-				<i class=""></i>
-				<h2>sjahkagfkdfdjfh</h2>
-				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>
 
+<div class="sobre">
+	<div class="container">
+		<div class="row">
+			<?php 
+		    	$args = array('post_type'=>'page]','pagename'=>'sobre')
+		    	$my_sobre = get_posts( $args );
+		    	if($my_sobre) : foreach($my_sobre as $post) : setup_postdata( $post );
+		     ?>
+		     	
+				<div class="col-md-12-col-lg-12">
+					<h2><?php the_title(); ?></h2>
+				</div>
+				<div class="col-md-6-col-lg-6">
+					<?php the_content(); ?>
+				</div>
+				<div class="col-md-6-col-lg-6">
+					<?php the_post_thumbmail(false, array('class'=>'img-responsive')); ?>
+				</div>
 
+			<?php 
+		    	endforeach;
+		    	endif;
+		     ?>
+		</div>
+	</div>
+</div>
 
+<div class="blog">
+	<div class="container">
+		<h2 class="the_title-blog">BLOG</h2>
+		<div class="row">
+			<?php 
+		    	$args = array('post_type'=>'post','showposts'=>3)
+		    	$my_post = get_posts( $args );
+		    	if($my_post) : foreach($my_post as $post) : setup_postdata( $post );
+		     ?>
+ 
+				<div class="col-md-4-col-lg-4">
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbmail(false,array('class'=>'img-responsive')); ?></a>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_excerpt(); ?>
+				</div>
 
-
-
-
-
-
-
-
+			<?php 
+		    	endforeach;
+		    	endif;
+		     ?>
+		     <div class="clear">
+		     	<div class="link"><a href="leia-mais">VEJA TODOS</a></div>
+		     </div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>

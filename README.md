@@ -16,10 +16,19 @@ Começar a edição do front-end do theme
 No carousel foi usado um "plugin" chamado 'wp_bootstrap_navwalker.php' e colocado no /assets/includes. Configurando no header e no functions (toda config de plugins e afins) [https://github.com/wp-bootstrap/wp-bootstrap-navwalker]
 - menu e slider automatizado pelo painel WP
 
-[Serviços no Tema e Utilizando Plugin Advanced Custom Fields]
+[Serviços no Tema e Utilizando Plugin Advanced Custom Fields (ACF)]
 Colocar serviços no theme
-Colocar icons do proprio bootstrap
-[5:00-stoped]
+Colocar icons do proprio das sugestoes do bootstrap
+Colocar 'registro custom post type no functions (para toda e qualquer configuração no theme)' -> para criar uma aba no painel do WP
+Instalar ACF e adiciona um 'campo personalizado' e fazer configuração no seu novo grupo de campo 
+Serviços configurar e no icones tem que colocar somente o codigo do icon
+
+[Sobre, Blog e Footer no Tema]
+A administração do sobre e os blogs no painel WP
+- Usa o sidebar no functions
+e o snippets serve somente de cola para o functions!
+Instalar o formidable forms e cria o 'formulario' no painel WP
+[12:31-footer]
 
 [Boas praticas WP]
 

@@ -7,11 +7,7 @@ Author URL: https://jonathanccardoso.github.io/
 Version: 1.0
 */
 
-.clear{
-	clear: both;
-}
-
-/* HEADER */
+/* header */
 .header .navbar-custom{
 	background: #fff;
 	border: none; /*eliminando linha do nav	*/
@@ -54,7 +50,7 @@ Version: 1.0
 	color: #00e0d0;
 }
 .sobre{
-	background: url(assets/images/slider-01.jpg) fixed;
+	background: url(assets/images/slider-01.jpg) fixed; /*efeito 'parallax'*/
 	padding: 30px 0;
 	margin-top: 60px;
 }
@@ -63,7 +59,7 @@ Version: 1.0
 }
 .sobre h2{
 	color: #fff;
-	text-transform: uppercase;
+	text-transform: uppercase; /*sempre efeitos no css, nunca manual*/
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -89,6 +85,9 @@ Version: 1.0
 .blog .link a:hover{
 	border: 1px solid #00e0d0;
 }
+.clear{
+	clear: both;
+}
 .header-internas{
 	background: url(assets/images/bg-internas.jpg) center top;
 	padding: 40px 0;
@@ -107,7 +106,7 @@ Version: 1.0
 .header-internas #crumbs a{
 	color: #00e0d0;
 }
-/* FOOTER */
+/* footer */
 .footer{
 	background: url(assets/images/bg-footer.jpg) center top;
 	padding: 30px 0;
