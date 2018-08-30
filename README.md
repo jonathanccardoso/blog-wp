@@ -12,9 +12,17 @@ Instalar o theme no WP
 No functions roda ass funções e scripts do theme
 Começar a edição do front-end do theme
 
-[menu e slider dinamicos]
+[Menu e slider dinamicos]
 No carousel foi usado um "plugin" chamado 'wp_bootstrap_navwalker.php' e colocado no /assets/includes. Configurando no header e no functions (toda config de plugins e afins) [https://github.com/wp-bootstrap/wp-bootstrap-navwalker]
 - menu e slider automatizado pelo painel WP
+
+[Serviços no Tema e Utilizando Plugin Advanced Custom Fields]
+Colocar serviços no theme
+Colocar icons do proprio bootstrap
+[5:00-stoped]
+
+[Boas praticas WP]
+
 
 ## References ##
 Watch series

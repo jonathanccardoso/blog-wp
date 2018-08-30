@@ -64,4 +64,37 @@
 	</div>
 </div>
 
+<div class="servicos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4-col-lg-4">
+				<i class=""></i>
+				<h2>sjahkagfkdfdjfh</h2>
+				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
+			</div>
+			<div class="col-md-4-col-lg-4">
+				<i class=""></i>
+				<h2>sjahkagfkdfdjfh</h2>
+				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
+			</div>
+			<div class="col-md-4-col-lg-4">
+				<i class=""></i>
+				<h2>sjahkagfkdfdjfh</h2>
+				<p>sskbasdsfhdjhasjhsss sdsajkdhsd ssdhsadssj asdjhss dss ssdsajsds</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <?php get_footer(); ?>
