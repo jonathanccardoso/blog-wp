@@ -27,8 +27,10 @@ Serviços configurar e no icones tem que colocar somente o codigo do icon
 A administração do sobre e os blogs no painel WP
 - Usa o sidebar no functions
 e o snippets serve somente de cola para o functions!
-Instalar o formidable forms e cria o 'formulario' no painel WP
-[12:31-footer]
+Instalar o formidable forms e cria o 'formulario' no painel WP e fazer a personalização com ajuda do inspecionador
+[Dev pagina interna padrao do theme]
+salvar imagens do site
+chamada da função -> wp_custom_breadcrumbs();
 
 [Boas praticas WP]
 
