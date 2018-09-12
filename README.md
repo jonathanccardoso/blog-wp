@@ -21,12 +21,15 @@ Colocar icons do proprio das sugestoes do bootstrap
 Colocar 'registro custom post type no functions (para toda e qualquer configuração no theme)' -> para criar uma aba no painel do WP
 Instalar ACF e adiciona um 'campo personalizado' e fazer configuração no seu novo grupo de campo 
 Serviços configurar e no icones tem que colocar somente o codigo do icone
+3 serviços criados
 
 [Sobre, Blog e Footer no Tema]
 A administração do 'sobre' e os blogs no painel WP
 Usa o sidebar no functions
 O snippets serve somente de cola para o functions!
-Instalar o formidable forms e cria o 'formulario' no painel WP e fazer a personalização com ajuda do inspecionador
+Instalar o formidable forms e cria o 'formulario' no painel WP (com campo de email) e fazer a personalização com ajuda do inspecionador
+Uma pagina Sobre para o campo Sobre
+O footer puxa o widgets com nome 'Sidebar footer' adicionado campo texto
 
 [Dev pagina interna padrão do theme]
 Salvar imagens do site
