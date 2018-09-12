@@ -1,8 +1,6 @@
 # Blog - WP
 Theme WordPress. No other frameworks.
 
-## http://jonathancardoso.esy.es ##
-
 ## Steps ##
 Baixar wordpress na maquina local.
 Baixar aquivos js e css no projeto(/assets).
@@ -13,27 +11,26 @@ No functions roda ass funções e scripts do theme
 Começar a edição do front-end do theme
 
 [Menu e slider dinamicos]
-No carousel foi usado um "plugin" chamado 'wp_bootstrap_navwalker.php' e colocado no /assets/includes. Configurando no header e no functions (toda config de plugins e afins) [https://github.com/wp-bootstrap/wp-bootstrap-navwalker]
-- menu e slider automatizado pelo painel WP
+O carousel foi usado um "plugin" chamado 'wp_bootstrap_navwalker.php' e colocado no /assets/includes. 
+Configurando no header e no functions (toda config de plugins e afins) 
+[https://github.com/wp-bootstrap/wp-bootstrap-navwalker] - menu e slider automatizado pelo painel WP
 
 [Serviços no Tema e Utilizando Plugin Advanced Custom Fields (ACF)]
 Colocar serviços no theme
 Colocar icons do proprio das sugestoes do bootstrap
 Colocar 'registro custom post type no functions (para toda e qualquer configuração no theme)' -> para criar uma aba no painel do WP
 Instalar ACF e adiciona um 'campo personalizado' e fazer configuração no seu novo grupo de campo 
-Serviços configurar e no icones tem que colocar somente o codigo do icon
+Serviços configurar e no icones tem que colocar somente o codigo do icone
 
 [Sobre, Blog e Footer no Tema]
-A administração do sobre e os blogs no painel WP
-- Usa o sidebar no functions
-e o snippets serve somente de cola para o functions!
+A administração do 'sobre' e os blogs no painel WP
+Usa o sidebar no functions
+O snippets serve somente de cola para o functions!
 Instalar o formidable forms e cria o 'formulario' no painel WP e fazer a personalização com ajuda do inspecionador
-[Dev pagina interna padrao do theme]
-salvar imagens do site
-chamada da função -> wp_custom_breadcrumbs();
 
-[Boas praticas WP]
-
+[Dev pagina interna padrão do theme]
+Salvar imagens do site
+Chamada da função -> wp_custom_breadcrumbs();
 
 ## References ##
 Watch series
