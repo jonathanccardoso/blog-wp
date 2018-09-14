@@ -35,6 +35,18 @@ O footer puxa o widgets com nome 'Sidebar footer' adicionado campo texto
 Salvar imagens do site
 Chamada da função -> wp_custom_breadcrumbs();
 
+## Segurança ##
+- Para remover editor de códigos do WordPress insira o código abaixo em seu arquivo wp-config.php
+define('DISALLOW_FILE_EDIT', true);
+- manter supre o theme ou plugins atualizados
+- plugins de segurança
+- a cada mes um BACKUP
+
+## SEO ##
+- Utilizar o google webmasstrs
+- plugins de SEO
+
+
 ## References ##
 Watch series
 https://www.youtube.com/watch?v=8YyvwUhED20&list=PL9iRXc4XHkhWDhBt9-QuBHV4SALkGezab&index=10
