@@ -3,8 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php wp_title(); ?></title>
-	
 	<?php wp_head(); ?>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+	<!---color of the flap, chrome mobile -->
+	<meta name="theme-color" content="#5f88bc">
+	<!---color of the flap, safari mobile-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#5f88bc">
+	<!---color of the flap, WPhone mobile-->
+	<meta name="msapplication-navbutton-color" content="#5f88bc">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- remove maximização -->
+  	<meta name="robots" content="index, nofollow">
 </head>
 <body>
 	<div class="header">
