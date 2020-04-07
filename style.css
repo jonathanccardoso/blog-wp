@@ -7,18 +7,17 @@ Author URL: https://jonathanccardoso.github.io/
 Version: 1.0
 */
 
-/* header */
-.header .navbar-custom{
+.header .navbar-custom {
 	background: #fff;
-	border: none; /*eliminando linha do nav	*/
+	border: none;
 	padding: 10px 0;
-	margin-bottom: 0; /*para encostar a imagem com o menu*/
+	margin-bottom: 0;
 }
-.header .navbar-custom .navbar-brand span{
+.header .navbar-custom .navbar-brand span {
 	color: #00e0d0;
 	font-weight: bold;
 }
-.header .navbar-collapse-custom a{
+.header .navbar-collapse-custom a {
 	color: #353535;
 }
 .carousel-indicators .active{
@@ -50,7 +49,7 @@ Version: 1.0
 	color: #00e0d0;
 }
 .sobre{
-	background: url(assets/images/slider-01.jpg) fixed; /*efeito 'parallax'*/
+	background: url(assets/images/slider-01.jpg) fixed;
 	padding: 30px 0;
 	margin-top: 60px;
 }
@@ -59,7 +58,7 @@ Version: 1.0
 }
 .sobre h2{
 	color: #fff;
-	text-transform: uppercase; /*sempre efeitos no css, nunca manual*/
+	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -106,7 +105,7 @@ Version: 1.0
 .header-internas #crumbs a{
 	color: #00e0d0;
 }
-/* footer */
+
 .footer{
 	background: url(assets/images/bg-footer.jpg) center top;
 	padding: 30px 0;

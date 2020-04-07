@@ -2,22 +2,21 @@
 
 <div class="slider">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	  	<?php 
-			$args = array('post_type'=>'slider', 'showposts'=>5);
-			$my_slider = get_posts( $args );
-			$count = 0 ; if($my_slider) : foreach($my_slider as $post) : setup_postdata( $post );
-		 ?>
-	    	<li data-target="#carousel-example-generic" data-slide-to="<?php echo $count; ?>" <?php if($count == 0): ?> class="active"<?php endif; ?>></li>
-		<?php
-			$count ++ ;
-	    	endforeach;
-	    	endif;
-	     ?>
-	  </ol>
+	  
+		<ol class="carousel-indicators">
+			<?php 
+				$args = array('post_type'=>'slider', 'showposts'=>5);
+				$my_slider = get_posts( $args );
+				$count = 0 ; if($my_slider) : foreach($my_slider as $post) : setup_postdata( $post );
+			?>
+				<li data-target="#carousel-example-generic" data-slide-to="<?php echo $count; ?>" <?php if($count == 0): ?> class="active"<?php endif; ?>></li>
+			<?php
+				$count ++ ;
+				endforeach;
+				endif;
+			?>
+		</ol>
 
-	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 		<?php 
 			$cont = 0 ; if($my_slider) : foreach($my_slider as $post) : setup_postdata( $post );
@@ -46,13 +45,13 @@
 	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
+
 	</div>
 </div>
 
 <div class="servicos">
 	<div class="container">
 		<div class="row">
-
 			<?php 
 				$args = array('post_type'=>'servicos', 'showposts'=>3);
 				$my_servicos = get_posts( $args );
@@ -62,6 +61,7 @@
 				<div class="col-md-4 col-lg-4">
 					<i class="<?php the_field('icones'); ?>"></i>
 					<h2><?php the_title(); ?></h2>
+					<!-- resumo do texto -->
 					<?php the_excerpt(); ?>
 				</div>
 			
@@ -103,6 +103,7 @@
 	</div>
 </div>
 
+<?php /*
 <div class="blog">
 	<div class="container">
 		<h2 class="title-blog">BLOG</h2>
@@ -129,5 +130,6 @@
 		</div>
 	</div>
 </div>
+*/ ?>
 
 <?php get_footer(); ?>

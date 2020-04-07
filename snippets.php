@@ -120,9 +120,7 @@ if ( function_exists('register_sidebar'))
     'after_title' => '</h2>',
 ));
 
-/*CHAMADA*/
-<?php if ( !function_exists('dynamic_sidebar')
-    || !dynamic_sidebar('Sidebar blog')): ?>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar blog')): ?>
 <?php endif; ?>
 
 <?php echo FrmFormsController::get_form_shortcode(array('id' => 2, 'key' => '', 'title' => false, 'description' => false, 'readonly' => false, 'entry_id' => false)); ?>
