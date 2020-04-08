@@ -58,7 +58,7 @@
 				if($my_servicos) : foreach($my_servicos as $post) : setup_postdata( $post );
 			 ?>
 
-				<div class="col-md-4 col-lg-4">
+				<div class="col-md-4">
 					<i class="<?php the_field('icones'); ?>"></i>
 					<h2><?php the_title(); ?></h2>
 					<!-- resumo do texto -->
@@ -75,22 +75,21 @@
 
 <div class="sobre">
 	<div class="container">
-		<div class="row">
-			
+		<div class="row">			
 			<?php 
 				$args = array('post_type'=>'page', 'pagename'=>'sobre');
 				$my_sobre = get_posts( $args );
 				if($my_sobre) : foreach($my_sobre as $post) : setup_postdata( $post );
 			 ?>
-			 	<div class="col-md-12 col-lg-12">
+			 	<div class="col-md-12">
 					<h2><?php the_title(); ?></h2>
 				</div>
 
-				<div class="col-md-6 col-lg-6">
+				<div class="col-md-6">
 					<?php the_content(); ?>
 				</div>
 				
-				<div class="col-md-6 col-lg-6">
+				<div class="col-md-6">
 					<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
 				</div>
 
@@ -98,12 +97,10 @@
 		    	endforeach;
 		    	endif;
 	     	?>
-
 		</div>
 	</div>
 </div>
 
-<?php /*
 <div class="blog">
 	<div class="container">
 		<h2 class="title-blog">BLOG</h2>
@@ -130,6 +127,5 @@
 		</div>
 	</div>
 </div>
-*/ ?>
 
 <?php get_footer(); ?>

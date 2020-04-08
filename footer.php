@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-md-4 col-lg-4">
-				<?php 
+			<div class="col-md-4">
+				<?php
 					$args = array('post_type'=>'page', 'pagename'=>'sobre');
 					$my_sobre = get_posts( $args );
 					if($my_sobre) : foreach($my_sobre as $post) : setup_postdata( $post );
@@ -14,11 +14,14 @@
 			    	endif;
 		     	?>
 			</div>
+			
+			<!-- widgets for infos text used html -->
 			<?php if ( !function_exists('dynamic_sidebar')
 			    || !dynamic_sidebar('Sidebar footer')): ?>
 			<?php endif; ?>
 
-			<div class="col-md-4 col-lg-4">
+			<div class="col-md-4">
+				<!-- add plugin formidable to forms, import form id  -->
 				<?php echo FrmFormsController::get_form_shortcode(array('id' => 2, 'key' => '', 'title' => false, 'description' => false, 'readonly' => false, 'entry_id' => false)); ?>
 			</div>
 

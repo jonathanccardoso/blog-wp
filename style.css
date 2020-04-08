@@ -118,7 +118,7 @@ Version: 1.0
 	display: none !important;
 }
 .footer .frm_form_fields .form-field{
-	float: left;
+	/* float: left; */
 	width: 250px;
 }
 .footer .frm_form_fields .form-field input{

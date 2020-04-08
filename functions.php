@@ -110,7 +110,7 @@ if ( function_exists('register_sidebar'))
     register_sidebar(array(
     'name' => 'Sidebar footer',
     'id' => 'sidebar-footer',
-    'before_widget' => '<div class="col-md-4 col-lg-4">',
+    'before_widget' => '<div class="col-md-4">',
     'after_widget' => '</div>',
     'before_title' => '<h2>',
     'after_title' => '</h2>',
@@ -223,4 +223,4 @@ function wp_custom_breadcrumbs() {
     echo '</div>';
  
   }
-} // end wp_custom_breadcrumbs()
+} // end call wp_custom_breadcrumbs()
