@@ -7,9 +7,9 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">License</a>
 </p>
 
@@ -59,16 +59,16 @@ This is a project that serves as a guide for themes using wordpress in conjuncti
 
 * The file names are mostly self-explanatory.
 
-## 🤔 Como contribuir
+## 🤔 How to contribute
 
 - Fork this repository;
-- Create a branch with your feature: `git checkout -b minha-feature`;
-- Commit your changes: `git commit -m 'feat: Minha nova feature'`;
-- Push to your branch: `git push origin minha-feature`.
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: my new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
 After the merge of your pull request is done, you can delete your branch.
 
-## :memo: Licença
+## :memo: License
 
 This project is under the GNU GENERAL PUBLIC license. See the [LICENSE] file (LICENSE.md) for more details.
 
